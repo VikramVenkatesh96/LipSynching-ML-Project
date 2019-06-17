@@ -1,0 +1,52 @@
+				
+				------------------VERSION HISTORY------------------
+
+
+
+Version 1.2(GUI change)
+
+-Main model(Lisa) texturing completed
+
+-Changed Background to office model
+
+-Added post processing effects
+
+-Added config file mechanism for ease-of-use
+
+-(for developers) Cleaned up C# code. Code is now well commented and organized.
+
+-Fixed issue with lipsync when previous or next viseme is the same as current one.
+
+
+
+Version 1.1.2(Web Build)
+
+-Successfuly ported to WebGL build
+
+-Improved lipsync when previous and next viseme are same as current
+
+-Further improvement in performance to realistic levels(mean response time ~ 1s)
+
+
+
+Version 1.1.1
+
+-Fixed issue in lipsync when encountering space in plaintext
+
+-Slightly improved performance of chatbot server using pre-trained models
+
+-Greatly improved performance of chatbot GUI(mean response time ~ 13s)
+
+
+
+Version 1.0(PC)
+
+-Simple chat UI with one text area, one input field and one submit button(mean response time ~23s)
+
+-High poly mesh for face with over 95,000 triangles
+
+-16 Visemes model for lip movement
+
+-Single external python script handling both the chat response and the predicted visemes
+
+-Current build: Windows desktop application. 
